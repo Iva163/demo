@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Nautilus Pompilius';
+    src: local('Nautilus Pompilius'), local('NautilusPompilius'), url('nautiluspompilius.woff2') format('woff2'), url('nautiluspompilius.woff') format('woff'), url('nautiluspompilius.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnolia Script';
+    src: local('Magnolia Script'), local('Magnolia-Script'), url('Magnoliascript.woff2') format('woff2'), url('Magnoliascript.woff') format('woff'), url('Magnoliascript.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Magnolia Script', sans-serif;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.widget {
+
+    outline: 10px solid #0e0681;
+    outline-offset: 5px;
+    width: 450px;
+    height: 400px;
+    background: #306cb1;
+    color: #fff;
+    /* text-align: center; */
+       
+}
+
+.js-result {
+    border: none;
+    padding: 15px 55px;
+    color: #ffffff;
+    background-color: #c44234;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.js-result:focus {
+    outline: 2px solid #c53b2d;
+    outline-offset: 5px;
+}
+
+.from-row:nth-child(n+2) {
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.form-group {
+    display: block;
+}
+
+.form-hint {
+    font-size: 16px;
+}
+
+.js-output {
+    font-size: 20px;
+}
+
+input {
+    width: 50px;
+}

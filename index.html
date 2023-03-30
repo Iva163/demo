@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+    <title>Расчет мощности котла отопления</title>
+</head>
+
+<body>
+    <div class="widget">
+        <h1>Расчет мощности котла отопления</h1>
+        <div class="from-row">
+            <label class="form-group">
+                <span class="form-hint">Отапливаемая площадь:</span>
+                <input class="js-square" type="number" title="Введите площадь в м2" required>
+                
+            </label>
+        </div>
+
+        <div class="from-row">
+            <label class="form-group">
+                <span class="form-hint">Высота потолков:</span>
+                <input class="js-height" type="number" title="Введите высоту потолков в м" required>
+                
+            </label>
+        </div>
+
+        <div class="from-row">
+
+            <button class="js-result" title="Нажмите для получения расчета">Рассчитать</button>
+        </div>
+
+        <div class="from-row">
+            
+                <span class="form-hint">Примерная мощность котла в кВт:</span>
+                <span class="js-output"></span>
+            
+        </div>
+
+    </div>
+    <script src="calculate.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
