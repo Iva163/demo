@@ -31,7 +31,7 @@ body{
 
 .js-result {
     border: none;
-    padding: 15px 55px;
+    padding: 10px 30px;
     color: #ffffff;
     background-color: #c44234;
     font-family: inherit;
@@ -59,6 +59,7 @@ body{
 
 .js-output {
     font-size: 20px;
+    color: #ff1900;
 }
 
 input {
